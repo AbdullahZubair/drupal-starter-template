@@ -1,0 +1,17 @@
+uuid: ef946f42-dfa9-4694-910f-93c4ed146a13
+langcode: en
+status: false
+dependencies: {  }
+id: production
+label: Production
+description: 'Settings used only on the live production site. Turns off development tools and debugging features, and turns on performance settings for visitors.'
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/production
+module: {  }
+theme: {  }
+complete_list:
+  - system.performance
+partial_list: {  }

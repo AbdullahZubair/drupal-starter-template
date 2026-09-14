@@ -1,0 +1,49 @@
+# Secrets and machine generated environment values. Never commit these.
+/.env
+/.env.local.php
+
+# PHP error logs. No fixed location, since it depends on server config,
+# so this is left unanchored to catch one wherever it lands.
+error_log
+
+# Composer managed dependencies, reinstalled fresh by composer install.
+/vendor/
+
+# User uploaded and Drupal generated content. Each .htaccess here is a
+# real file Drupal itself writes to block direct access to that folder,
+# it is the one thing in each of these worth keeping in git.
+private/*
+!private/.htaccess
+temp/*
+!temp/.htaccess
+web/files/*
+!web/files/.htaccess
+web/assets/*
+!web/assets/.htaccess
+
+# Composer managed code inside the document root.
+web/core
+web/libraries
+web/modules/contrib
+web/profiles/contrib
+web/themes/contrib
+
+# Scaffolded entry point files. Composer rewrites these fresh on every
+# install, so a committed copy would just be a stale duplicate.
+web/autoload.php
+web/autoload_runtime.php
+web/index.php
+web/robots.txt
+web/update.php
+web/.htaccess
+
+# Any other application log files.
+*.log
+
+# Operating system and editor files.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+#End.

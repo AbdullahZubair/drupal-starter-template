@@ -1,0 +1,27 @@
+_core:
+  default_config_hash: 4GIX5Esnc_umpXUBj4IIocRX7Mt5fPhm4AgXfE3E56E
+module:
+  big_pipe: 0
+  block: 0
+  breakpoint: 0
+  config: 0
+  config_split: 0
+  dotenv: 0
+  dynamic_page_cache: 0
+  experimental_theme_status: 0
+  field: 0
+  filter: 0
+  inline_form_errors: 0
+  mysql: 0
+  node: 0
+  page_cache: 0
+  path_alias: 0
+  system: 0
+  text: 0
+  toolbar: 0
+  update: 0
+  user: 0
+  minimal: 1000
+theme:
+  default_admin: 0
+profile: minimal

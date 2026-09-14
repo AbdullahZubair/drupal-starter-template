@@ -1,0 +1,16 @@
+_core:
+  default_config_hash: Os38e_FxlnVUUxa-kU2jAl4ktUAKfvac-lDRB-crn9A
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: false
+preset_accent_color: null
+preset_focus_color: gin
+enable_dark_mode: '1'
+high_contrast_mode: false
+accent_color: ''
+focus_color: ''
+layout_density: medium
+show_description_toggle: true
+show_user_theme_settings: false

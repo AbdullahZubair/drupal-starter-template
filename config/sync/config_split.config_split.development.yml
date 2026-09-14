@@ -1,0 +1,20 @@
+uuid: ba654c2e-e424-440e-bf63-2f85645c3231
+langcode: en
+status: false
+dependencies: {  }
+id: development
+label: Development
+description: 'Settings used only when working on the site locally. Turns on development tools and debugging features, and turns off performance settings that would get in the way while building.'
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/development
+module:
+  coffee: 0
+  coffee_shortcut: 0
+  dblog: 0
+theme: {  }
+complete_list:
+  - system.performance
+partial_list: {  }

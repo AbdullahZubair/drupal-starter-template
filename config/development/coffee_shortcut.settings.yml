@@ -1,0 +1,9 @@
+_core:
+  default_config_hash: _Uh0C8annafwftSfXdX_R7DIPJK0GKIV6FMT3VhP7Dg
+block_default_shortcut: true
+custom_shortcut:
+  alt: true
+  shift: true
+  ctrl: false
+  meta: false
+  key: d

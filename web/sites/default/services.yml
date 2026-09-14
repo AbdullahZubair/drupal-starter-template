@@ -1,0 +1,4 @@
+parameters:
+  password.algorithm: argon2id
+  password.options: []
+  security.enable_super_user: false
